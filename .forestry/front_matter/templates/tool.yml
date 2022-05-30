@@ -2,18 +2,26 @@
 label: tool
 hide_body: false
 fields:
+- type: text
+  name: title
+  label: Nome
+  description: Indica o nome do projeto
 - type: file
   name: image
   label: image
+  description: É a capa do seu projeto no feed.
 - type: boolean
   name: showonlyimage
-  label: showonlyimage
+  label: Esconder Texto
+  description: Faz com que nenhum texto acompanhe a imagem no feed.
 - type: datetime
   name: date
-  label: date
-- type: text
-  name: title
-  label: title
+  label: Data
+  config:
+    date_format: DD/MM/YYYY
+  default: now
+  description: É a data, né?
 - type: number
   name: weight
-  label: weight
+  label: Prioridade
+  description: Indica o quão pra cima esse projeto fica no feed.
