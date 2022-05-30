@@ -1,12 +1,14 @@
 +++
 date = 2022-05-30T13:11:19Z
+draft = true
 image = "/uploads/publicidade-pos-pandemia.png"
-showonlyimage = false
+showonlyimage = true
 title = "Semana de Publicidade"
 weight = 1
 
 +++
-**_Branding_ | Cliente: SapiensTJ**  
-Elaboração da identidade visual do evento.
+Elaboração do Branding do evento realizado na Estácio Barra - Tom Jobim.
 
 <!--more-->
+
+![](/uploads/a3.png)![](/uploads/a3-2.png)![](/uploads/a3-1.png)
