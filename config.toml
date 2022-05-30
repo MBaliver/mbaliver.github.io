@@ -13,7 +13,13 @@ googleAnalytics = ""
   style = "matheus"
   description = "Describe your website"
   copyright = "&copy;2022 Matheus Oliveira"
-  sidebarAbout = []
+  sidebarAbout = [
+"Publicitário, Diretor de Arte e Ilustrador.",
+
+"Me perdi na internet e me encontrei em todo lugar."
+
+]
+
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
      # proxy. The form makes a POST request to their servers to send the actual
