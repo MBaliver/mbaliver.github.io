@@ -1,13 +1,13 @@
 +++
-date = 2016-11-05T14:52:08Z
+date = 2016-11-05T14:23:42Z
 draft = true
-image = "img/portfolio/trifold.jpg"
+image = "https://github.com/kishaningithub/hugo-creative-portfolio-theme/raw/master/exampleSite/static/img/portfolio/business-card.jpg"
 showonlyimage = true
-title = "Item with image"
-weight = 10
+title = "Name of the work 5-(copy)"
+weight = 5
 
 +++
-Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+Fifth abundantly made Give sixth hath. Cattle creature i be don't them.
 <!--more-->
 
 Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
