@@ -6,8 +6,12 @@ title = "Semana de Publicidade"
 weight = 1
 
 +++
-Elaboração do Branding do evento realizado na Estácio Barra - Tom Jobim.
+_Branding_ para evento.
+
+Cliente: Sapiens - Tom Jobim.
 
 <!--more-->
+
+Identidade visual planejada, desenvolvida e aplicada para o evento Publicidade Pós Pandemia que ocorreu durante a Semana de Publicidade em 2021.
 
 ![](/uploads/a3.png)![](/uploads/a3-2.png)![](/uploads/a3-1.png)
