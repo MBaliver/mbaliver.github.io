@@ -1,6 +1,5 @@
 +++
 date = 2022-05-30T13:11:19Z
-draft = true
 image = "/uploads/publicidade-pos-pandemia.png"
 showonlyimage = true
 title = "Semana de Publicidade"
