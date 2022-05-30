@@ -8,9 +8,9 @@ weight = 1
 +++
 _Branding_ para evento.
 
-Cliente: Sapiens - Tom Jobim.
-
 <!--more-->
+
+#### Cliente: Sapiens - Tom Jobim.
 
 Identidade visual planejada, desenvolvida e aplicada para o evento Publicidade Pós Pandemia que ocorreu durante a Semana de Publicidade em 2021.
 
