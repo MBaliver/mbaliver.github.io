@@ -9,7 +9,7 @@ fields:
   default: ''
 - type: file
   name: image
-  label: image
+  label: Imagem
   description: É a capa do seu projeto no feed.
 - type: boolean
   name: showonlyimage
