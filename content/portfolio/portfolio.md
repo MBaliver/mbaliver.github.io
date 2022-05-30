@@ -1,6 +1,5 @@
 +++
 date = 2016-11-05T14:29:22Z
-draft = true
 image = "img/portfolio/ipad-air-2.jpg"
 showonlyimage = false
 title = "Portfólio"
