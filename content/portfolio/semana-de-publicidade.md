@@ -6,3 +6,7 @@ title = "Semana de Publicidade"
 weight = 1
 
 +++
+**_Branding_ | Cliente: SapiensTJ**  
+Elaboração da identidade visual do evento.
+
+<!--more-->
