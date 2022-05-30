@@ -1,5 +1,5 @@
 baseurl = "https://matheusoliveira.netlify.app/"
-title = "Creative portfolio"
+title = "Matheus Oliveira"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -10,13 +10,10 @@ googleAnalytics = ""
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
-  style = "default"
+  style = "matheus"
   description = "Describe your website"
-  copyright = "&copy;2016 Your name or company"
-  sidebarAbout = [
-    "I am a creative illustrator and graphic designer with more than 10 years of experience.",
-    "Originally from Toronto, currently based in London."
-  ]
+  copyright = "&copy;2022 Matheus Oliveira"
+  sidebarAbout = []
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
      # proxy. The form makes a POST request to their servers to send the actual
@@ -42,22 +39,20 @@ googleAnalytics = ""
 
   # Nav links in the side bar
   [[params.navlinks]]
-  name = "Home"
+  name = "Portfólio"
   url = "portfolio/"
   home = true
 
   [[params.navlinks]]
-  name = "About"
+  name = "Sobre"
   url = "about/"
 
   [[params.navlinks]]
-  name = "Get in touch"
+  name = "Contato"
   url = "contact/"
 
   [params.social]
-  facebook      = "full page or profile url in facebook"
-  googleplus    = "full profile url in googleplus"
-  email         = "email@example.com"
+  email         = "matheusbaliver@gmail.com"
   twitter       = "full profile url in twitter"
   linkedin      = "full profile url in linkedin"
   stackoverflow = "full profile url in stackoverflow"
