@@ -26,3 +26,5 @@ fields:
   name: weight
   label: Prioridade
   description: Indica o quão pra cima esse projeto fica no feed.
+pages:
+- content/portfolio/semana-de-publicidade.md
