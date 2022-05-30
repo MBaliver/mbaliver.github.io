@@ -6,6 +6,7 @@ fields:
   name: title
   label: Nome
   description: Indica o nome do projeto
+  default: Coisa legal
 - type: file
   name: image
   label: image
