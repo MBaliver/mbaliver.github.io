@@ -5,15 +5,13 @@ publish_mode: editorial_workflow
 # This line should *not* be indented
 media_folder: "static/images/" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/" # The src attribute for uploaded media will begin with /images/uploads
-collections: # A list of collections the CMS should be able to edit
-- label: "Portfolio"
-name: "portfolio"
-folder: "content/portfolio"
-create: true
-fields:
-  - {label: "Title", name: "title", widget: "string"}
-  - {label: "Publish Date", name: "date", widget: "datetime"}
-  - {label: "Featured Image", name: "image", widget: "image"}
-  - {label: "Hide Text", name: "showonlyimage", widget: "string"}
-  - {label: "Importance", name: "weight", widget: "string"}
-  - {label: "Body", name: "body", widget: "markdown"}
+collections:
+  - label: "Páginas"
+    name: "sobre"
+    folder: "content/about"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "image", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
