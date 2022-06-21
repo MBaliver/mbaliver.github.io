@@ -47,15 +47,15 @@ googleAnalytics = ""
   [[params.navlinks]]
   name = "Portfólio"
   url = "portfolio/"
-  home = true
+  home = "true"
 
   [[params.navlinks]]
   name = "Sobre"
-  url = "about/"
+  url = "sobre/"
 
   [[params.navlinks]]
   name = "Contato"
-  url = "contact/"
+  url = "contato/"
 
   [params.social]
   email         = "matheusbaliver@gmail.com"
@@ -67,3 +67,7 @@ googleAnalytics = ""
   gitlab        = "full profile url in gitlab"
   youtube       = "full profile url in youtube"
   whatsapp      = "wa.me service link"
+
+[[module.mounts]]
+source = "images"
+target = "assets/images"

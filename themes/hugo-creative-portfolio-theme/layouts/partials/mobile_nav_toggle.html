@@ -1,4 +1,27 @@
 <div class="small-navbar visible-xs">
-  <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
+<div class="fab">
+  <button class="main">
+  </button>
+  <ul>
+    <li>
+      <label for="opcao1"></label>
+      <a href="/portfolio/"><button id="opcao1">
+      <i class="fa fa-picture-o" aria-hidden="true"></i>
+      </button></a>
+    </li>
+    <li>
+      <label for="opcao2"></label>
+      <a href="/sobre/"><button id="opcao2">
+      <i class="fa fa-user" aria-hidden="true"></i>
+      </button></a>
+    </li>
+    <li>
+      <label for="opcao3"></label>
+      <a href="/contato/"><button id="opcao3">
+      <i class="fa fa-phone" aria-hidden="true"></i>
+      </button></a>
+    </li>
+  </ul>
+</div>
   <h1 class="small-navbar-heading"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
 </div>

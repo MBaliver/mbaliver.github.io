@@ -1,6 +1,7 @@
 <html>
 <body>
-<img src="/uploads/avatar.jpg" alt="" class="avatar-responsive">
+{{ $image := resources.Get "images/avatar.jpg" }}
+<img src="{{ ( $image.Resize "230x r90" ).RelPermalink }}" alt="" class="avatar-responsive">
 <br>
 </body>
 </html>
