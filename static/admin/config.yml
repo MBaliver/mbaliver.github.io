@@ -16,23 +16,15 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "pages"
-    label: "Pages"
-    files:
-      - file: "site/content/portfolio/"
-        label: "Portfolio"
-        name: "portfolio"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: image, name: image, widget: image}
-          - {label: Body, name: body, widget: markdown}
-          - label: Contact Entries
-            name: contact_entries
-            widget: list
-            fields:
-              - label: Heading
-                name: heading
-                widget: string
-              - label: Text
-                name: text
-                widget: text
+    
+    - label: "Portfolio"
+    name: "portfolio"
+    folder: "content/portfolio"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "image", widget: "image"}
+      - {label: "Hide Text", name: "showonlyimage", widget: "string"}
+      - {label: "Importance", name: "weight", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
