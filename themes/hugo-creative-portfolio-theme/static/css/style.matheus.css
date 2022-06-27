@@ -531,6 +531,9 @@ OFF-CANVAS SIDEBAR BEHAVIOUR
     width: 50%;
     /* 6 columns */
   }
+.sidebar-heading a {
+    color: transparent;
+  }
 }
 /*
 =====================
