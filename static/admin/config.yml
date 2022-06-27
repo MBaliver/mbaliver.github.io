@@ -23,7 +23,6 @@ collections:
         widget: markdown
         hint: ""
         default: ""
-          - numbered-list
       - label: Image
         name: image
         required: true
