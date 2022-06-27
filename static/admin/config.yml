@@ -1,26 +1,82 @@
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  branch: main
 publish_mode: editorial_workflow
-# This line should *not* be indented
-media_folder: "static/images/" # Media files will be stored in the repo under static/images/uploads
-public_folder: "/images/" # The src attribute for uploaded media will begin with /images/uploads
+media_folder: static/images/
+public_folder: /images/
 collections:
-  - label: "Informações"
-    name: "sobre"
-    folder: "content/about"
+  - name: portfólio
+    label: Portfólio
+    folder: content/portfolio
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: Título
+        name: title
+        required: true
+        widget: string
+        hint: ""
+        default: ""
+      - label: Body
+        name: body
+        required: true
+        widget: markdown
+        hint: ""
+        default: ""
+        buttons:
+          - bold
+          - italic
+          - code
+          - heading-one
+          - link
+          - heading-two
+          - heading-three
+          - bulleted-list
+          - quote
+          - code-block
+          - heading-six
+          - heading-five
+          - heading-four
+          - numbered-list
+      - label: Image
+        name: image
+        required: true
+        widget: image
+        hint: ""
+        default: ""
+        allow_multiple: true
+    identifier_field: Portfólio
+  - label: Informações
+    name: sobre
+    folder: content/about
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "image", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - label: "Contato"
-    name: "contato"
-    folder: "content/contact"
+      - label: Title
+        name: title
+        widget: string
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - label: Featured Image
+        name: image
+        widget: image
+      - label: Body
+        name: body
+        widget: markdown
+  - label: Contato
+    name: contato
+    folder: content/contact
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "image", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - label: Title
+        name: title
+        widget: string
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - label: Featured Image
+        name: image
+        widget: image
+      - label: Body
+        name: body
+        widget: markdown
