@@ -5,8 +5,8 @@ publish_mode: editorial_workflow
 media_folder: static/images/
 public_folder: /images/
 collections:
-  - name: portfólio
-    label: Portfólio
+  - name: Portfólio
+    label: Portfolio
     folder: content/portfolio
     create: true
     slug: "{{slug}}"
