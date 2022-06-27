@@ -23,20 +23,6 @@ collections:
         widget: markdown
         hint: ""
         default: ""
-        buttons:
-          - bold
-          - italic
-          - code
-          - heading-one
-          - link
-          - heading-two
-          - heading-three
-          - bulleted-list
-          - quote
-          - code-block
-          - heading-six
-          - heading-five
-          - heading-four
           - numbered-list
       - label: Image
         name: image
